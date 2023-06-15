@@ -1,0 +1,12 @@
+[Unit]
+Description=Add flatpak repositories
+Before=flatpak-system-helper.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/flatpak remote-add --system --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+ExecStart=/usr/bin/flatpak remote-add --system --if-not-exists kdeapps http://distribute.kde.org/kdeapps.flatpakrepo
+
+[Install]
+WantedBy=multi-user.target

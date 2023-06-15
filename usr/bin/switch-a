@@ -1,0 +1,3 @@
+#!/bin/bash
+
+unset LD_PRELOAD; unset LD_LIBRARY_PATH; /system/bin/bootctl set-active-boot-slot 0

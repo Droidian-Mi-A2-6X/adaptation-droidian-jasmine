@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: adaptation-droidian-lavender
-Source: https://github.com/droidian-devices/adaptation-droidian-lavender
+Upstream-Name: adaptation-droidian-jasmine
+Source: https://github.com/Droidian-Mi-A2-6X/adaptation-droidian-jasmine
 
 Files: *
-Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
+Copyright: 2023 Shoko <shou@disroot.org>
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
+Copyright: 2023 Shoko <shou@disroot.org>
 License: BSD-3-clause
 
 License: BSD-3-clause

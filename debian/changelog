@@ -1,6 +1,6 @@
-adaptation-droidian-lavender (0.0.0+git2023032529318330.124b1d0.main) main; urgency=medium
+adaptation-droidian-jasmine (0.0.0+git2023032529318330.124b1d0.main) main; urgency=medium
 
   * disable suspend as its broken
 
- -- fakeshell <fakeshell@bardia.tech>  Sat, 25 Mar 2023 07:46:16 +0330
+ -- Shoko <shou@disroot.org>  Sat, 25 Mar 2023 07:46:16 +0330
 

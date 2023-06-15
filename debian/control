@@ -1,23 +1,24 @@
-Source: adaptation-droidian-lavender
-Maintainer: Bardia Moshiri
+Source: adaptation-droidian-jasmine
+Maintainer: Shoko
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-lavender
-Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-lavender.git
+Vcs-Browser: https://github.com/Droidian-Mi-A2-6X/adaptation-droidian-jasmine
+Vcs-Git: https://github.com/Droidian-Mi-A2-6X/adaptation-droidian-jasmine.git
 
-Package: adaptation-droidian-lavender
+Package: adaptation-droidian-jasmine
 Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api28-phone,
-         adaptation-lavender-configs,
-         linux-bootimage-xiaomi-lavender,
-         batman,
-Description: adapatation-lavender-meta
- lavender api28 adaptation metapackage
+         adaptation-jasmine-configs,
+         linux-bootimage-xiaomi-jasmine,
+         batman,qtwayland5,seahorse,
+         power-profiles-daemon,dialog
+Description: adapatation-jasmine-meta
+ jasmine api28 adaptation metapackage
 
-Package: adaptation-lavender-configs
+Package: adaptation-jasmine-configs
 Architecture: all
 Depends: ${misc:Depends},
-Description: lavender's adaptation configs
+Description: jasmine's adaptation configs
