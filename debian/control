@@ -12,7 +12,7 @@ Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api28-phone,
          adaptation-jasmine-configs,
-         batman,seahorse,dialog
+         batman,dialog,flatpak,seahorse
 Description: adapatation-jasmine-meta
  jasmine api28 adaptation metapackage
 
